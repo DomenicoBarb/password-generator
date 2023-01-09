@@ -27,10 +27,10 @@ THEN the password is either displayed in an alert or written to the page
 ```
 
 ## Description:
-```
 This is a random password generating app, enter your password length (8-128 characters), select whether you would like upper/lowercase letters, special characters or numbers. After selecting your choices a password matching the criteria will be displayed!
-```
 
 ## Screenshot:
 ![Screenshot](./assets/img/screenshot.png)
 
+# Link to deployed website:
+https://domenicobarb.github.io/password-generator/

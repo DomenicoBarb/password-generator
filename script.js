@@ -23,9 +23,7 @@ function writePassword() {
   if (correctChoicePrompt) {
     let newPassword = generatePassword();
     passwordText.value = newPassword;
-  } 
-  // if false set passwordText.value to nothing//
-  else {
+  } else {  // if false set passwordText.value to nothing
     passwordText.value = "";
   }
 }
@@ -52,7 +50,7 @@ function getPrompts() {
     // password length 8 - 128 prompt
   characterLength = parseInt(prompt("How many characters would you like your new password to be? (type 8 - 128)"));
     // if character number selection is correct 
-    if(isNaN(characterLength) || characterLength < 8 || characterLength > 128 ){
+    if(isNaN(characterLength) || characterLength < 8 || characterLength > 128 ) {
       alert("Character length has to be between 8 - 128 digits. Please try again and type the number, do NOT spell it. (Ex: 12 NOT 'twelve')");
       return false;
     }
